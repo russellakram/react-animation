@@ -9,9 +9,9 @@ class App extends Component {
       <Fragment>
         <header className="header">
           <div className="header-nav">
+          <Link className="header-nav__item" to="/ExampleCss/">ExampleCss</Link>
             <Link className="header-nav__item" to="/">ReactAnimations</Link>
             <Link className="header-nav__item" to="/ReactReveal/">ReactReveal</Link>
-            <Link className="header-nav__item" to="/ExampleCss/">ExampleCss</Link>
             <Link className="header-nav__item" to="/ReactTransitionGroup/">ReactTransitionGroup</Link>
             {/* <Link className="header-nav__item" to="/ReactMotion/">ReactMotion</Link> */}
           </div>
